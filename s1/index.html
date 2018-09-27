@@ -13,7 +13,17 @@
                   from {opacity:0}
                   to {opactiy:100}
             }
-            day1{animation: myfirst 2s 3;
+            @keyframes mysceond{
+                  0% {opacity:0}
+                  25%{opacity:25}
+                  50%{opacity:100}
+                  75%{opacity:75}
+                  100%{opacity:30}
+            }
+            #day2{
+            animation: mysecond 5s infinite;
+            }
+            #day1{animation: myfirst 2s 3;
             }
             
             html{height:100%;}
@@ -24,6 +34,7 @@
    </audio>
 <h1>GitHub 学习之路</h1>
  <p id="day1">9/26学习css动画使用到了@keyframes</P>
+ <p id="day2"> 9/27  音频的插入和动画效果</p>     
 </body>
 </html>
 
